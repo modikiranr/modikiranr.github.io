@@ -3,6 +3,9 @@
 	.nav-links {
 		display: flex !important;
 		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		row-gap: 2px;
 		position: static;
 		width: auto;
 		background: transparent;
@@ -19,6 +22,7 @@
 		border-bottom: none;
 		font-size: 1em;
 		text-align: center;
+		white-space: nowrap;
 	}
 	.nav-toggle {
 		display: none !important;
@@ -234,7 +238,7 @@ h1{ margin:0 0 6px 0; font-size:28px }
 .chip{ padding:6px 10px; background:#0e1116; border:1px solid var(--border); border-radius:999px; font-size:12px; color:var(--muted) }
 .btn{ display:inline-block; padding:10px 14px; background:var(--accent); color:#001018; border-radius:10px; font-weight:600 }
 nav{ position:sticky; top:0; backdrop-filter:blur(6px); background:rgba(11,12,16,.6); border-bottom:1px solid var(--border) }
-nav .container{ display:flex; gap:16px; overflow:auto }
+nav .container{ display:flex; gap:16px; flex-wrap:wrap; overflow:visible }
 nav a{ padding:12px 8px; display:block; color:var(--muted) } nav a:hover{ color:var(--text) }
 section{ background:var(--card); border:1px solid var(--border); border-radius:16px; padding:20px; margin:18px 0 }
 section h2{ margin:0 0 6px; font-size:22px }
