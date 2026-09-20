@@ -3,238 +3,309 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kiran Modi — Lecturer, Ph.D. in Finance</title>
-  <meta name="description" content="Kiran Modi — Lecturer and Ph.D. in Finance, University of North Texas. Corporate governance, ownership structure, activism, and ESG.">
+  <meta name="theme-color" content="#0d3b36">
+  <meta name="description" content="Kiran Modi is a Lecturer in Finance at the University of North Texas. Her research examines corporate governance, ownership structure, activism, and ESG investing.">
+  <meta property="og:title" content="Kiran Modi | Finance Scholar and Lecturer">
+  <meta property="og:description" content="Research, teaching, and professional materials for Kiran Modi, Ph.D. in Finance.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/headshot.jpg">
+  <title>Kiran Modi | Finance Scholar and Lecturer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container" id="top">
-    <header>
-      <img src="assets/headshot.jpg" alt="Headshot of Kiran Modi">
-      <div>
-        <h1>Kiran Modi</h1>
-        <div class="tagline">Lecturer, Ph.D. in Finance · University of North Texas</div>
-        <div class="chips">
-          <span class="chip">Corporate Governance</span>
-          <span class="chip">Ownership Structure</span>
-          <span class="chip">Activism</span>
-          <span class="chip">ESG</span>
-        </div>
-        <div class="actions pill-links">
-          <a class="btn" href="files/CV_Kiran Modi.pdf" target="_blank" rel="noopener">Curriculum Vitae </a>
-          <a href="files/Research_Statement%20Kiran%20Modi.pdf" target="_blank" rel="noopener">Research Statement</a>
-          <a href="files/Teaching_Statement%20Kiran%20Modi.pdf" target="_blank" rel="noopener">Teaching Statement</a>
-           </div>
-        <div class="contact-info">
-          <a class="contact-link email" href="mailto:kiran.modi@unt.edu"><span class="icon">📧</span> kiran.modi@unt.edu</a>
-          <a class="contact-link phone" href="tel:+12244102188"><span class="icon">📞</span> +1‑224‑410‑2188</a>
-            <a class="contact-link linkedin" href="https://www.linkedin.com/in/kiranmodi/" target="_blank" rel="noopener"><span class="icon">in</span> LinkedIn</a>
-        </div>
-      </div>
-    </header>
-  </div>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <nav>
-    <div class="container">
-      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
-        <span class="hamburger" id="hamburger"></span>
+  <nav class="site-nav" aria-label="Primary navigation">
+    <div class="nav-inner">
+      <a class="wordmark" href="#top" aria-label="Kiran Modi, home">KM</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span><span></span>
       </button>
       <div class="nav-links" id="nav-links">
         <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#papers">Job Market Paper</a>
-        <a href="#workingpapers">Working Papers</a>
-        <a href="#wip">Work in Progress</a>
         <a href="#research">Research</a>
         <a href="#teaching">Teaching</a>
         <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#awards">Honors & Awards</a>
+        <a href="#references">References</a>
         <a href="#contact">Contact</a>
+        <a class="nav-cv" href="files/CV_Kiran%20Modi.pdf" target="_blank" rel="noopener">CV <span aria-hidden="true">↗</span></a>
       </div>
     </div>
   </nav>
 
-  <main class="container">
-    <section id="about">
-      <div class="kicker">About</div>
-      <p>I am a Lecturer in Finance at the University of North Texas, Denton, where I recently completed my Ph.D. I specialize in corporate governance, ownership structure, agency conflicts, activism, and ESG/sustainable investing. My research examines how institutional ownership and sustainability considerations influence firm value, combining empirical corporate finance with modern data engineering and natural language processing techniques.</p>
-      <p>I have been fortunate to receive the Doctoral Directors Choice Award (FIREL, 2026), multiple Best Summer Research Paper Awards, and Outstanding Student Awards for my work at UNT. Alongside my research, I am deeply passionate about teaching — I currently teach Introduction to Finance (FINA 3770) and Financial Markets and Institutions (FINA 4400), and have instructed or assisted in several other undergraduate and graduate finance courses. My goal as both a researcher and educator is to connect financial theory with real-world data and promote evidence-based, inclusive learning in finance.</p>
-    </section>
-    <section id="education">
-      <div class="kicker">Education</div>
-      <ul style="list-style: disc; margin-left: 1.5em;">
-        <li><strong>Ph.D., Finance</strong> — University of North Texas <span class="small">(2021–2026)</span></li>
-        <li><strong>M.S., Finance</strong> — University of North Texas <span class="small">(2020–2021)</span></li>
-        <li><strong>Chartered Accountant (CA)</strong> — Institute of Chartered Accountants of India (ICAI) <span class="small">(2008–2011)</span></li>
-        <li><strong>B.Sc. Business</strong> — Gujarat University, India <span class="small">(2005–2008)</span></li>
-      </ul>
-    </section>
-    <section id="papers">
-      <div class="kicker">Job Market Paper</div>
-      <h2>ESG Ratings, Ownership Structure, and Firm Value</h2>
-      <p class="small">I examine how MSCI Environmental, Social, and Governance (ESG) rating changes affect institutional ownership and stock returns in U.S. firms from 2013 to 2023. I focus on three observable ownership shocks: ESG rating upgrades and downgrades, rating changes crossing MSCI's BB threshold for ESG‑index inclusion, and firms added to or removed from ESG‑focused exchange‑traded funds (ETFs). For identification, I use two‑way fixed effects, propensity‑score matching, difference‑in‑differences, and MSCI's 2012Q4 mass coverage initiation of 1,602 firms as a quasi‑natural experiment. Using these methods and event‑study tests, I find that ESG upgrades are associated with a modest 0.203% increase in institutional ownership in the baseline model, while the evidence for downgrades is stronger in matched and DiD specifications. BB downgrades and ESG ETF removals show the clearest negative ownership patterns, with ETF removals associated with a 1.361% decline in 13F holdings. Stock‑price reactions to rating changes are generally small and sensitive to the abnormal‑return model, although downgrades followed by ETF removals are associated with negative abnormal returns. Coverage initiation is followed by a 1.16% increase in institutional ownership, consistent with an ESG visibility channel. Overall, the results suggest that ESG ratings are associated with institutional ownership changes primarily through visibility, screening, and exclusion‑related channels, rather than through broad immediate valuation effects.</p>
-    </section>
-    <section id="workingpapers">
-      <div class="kicker">Working Papers</div>
-      <h2>ESG Ratings, Ownership and Stock Returns — Cross‑Country Analysis</h2>
-      <p class="small">This paper examines the relation between MSCI ESG rating changes, ESG‑focused ownership, and stock returns globally. Using MSCI ESG rating changes and the holdings data of 2,585 ESG‑focused open‑end equity funds from Morningstar Direct, this paper finds that ESG‑fund ownership is higher among better‑rated firms, rising from 0.13% of shares outstanding for CCC‑rated firms to 0.83% for AAA‑rated firms, and firms above the BB index‑eligibility cutoff are held more heavily than firms at or below BB. However, rating changes are not associated with the expected short‑run increase in aggregate ownership percentage: upgrades show a small negative ownership coefficient, while downgrades are not statistically significant. A propensity‑score‑matched difference‑in‑differences analysis provides similar evidence, showing no robust ownership‑percentage association around rating events within the six‑month event window. The evidence is stronger at the fund‑participation margin, where downgrades are associated with 0.1349 fewer ESG‑focused fund holders per firm‑month and BB downgrades with 0.2316 fewer fund holders. Stock‑return evidence is small on average but more visible around the BB threshold: U.S. BB upgrades are associated with positive abnormal returns of roughly 0.2% to 0.6%, while BB downgrades in Australia and Switzerland are associated with negative abnormal returns of roughly 0.7% to 1.5%. Overall, ESG rating changes are most informative around the BB index‑eligibility threshold, and fund participation captures investor response better than aggregate ownership.</p>
-    </section>
-     <section id="wip">
-      <div class="kicker">Work in Progress</div>
-      <ul>
-        <li><strong>Governance by Contract: Shareholder Agreements and Corporate Control</strong>
-          <p class="small">This project examines how markets perceive shareholder agreements as governance mechanisms. I exploit two opposing exogenous shocks—a Delaware court ruling (Moelis) that invalidated such agreements if not included in the charter, and a subsequent legislative proposal to overturn the ruling—to study market reactions. I have built a data pipeline using the SEC API to collect shareholder agreements, and preliminary event‑study analysis is complete. Ongoing work focuses on leveraging a large language model (LLM) to automatically classify the powers granted to shareholders—an approach that allows for scalable and accurate analysis—and refining how market reactions vary based on these contractual rights.</p>
-        </li>
-        <li><strong>Activism by Blockholders</strong> <span class="small">(with Stuart Gillan, Daniel Rettl & Vivek Acharya)</span></li>
-      </ul>
-    </section>
-    <section id="research">
-      <div class="kicker">Research Statement</div>
-      <p><strong>My research interest is in corporate finance, with a focus on corporate governance, agency conflicts, ownership structure, activism, and how ESG integrates with these broader concepts.</strong> These themes guide all of my work, and you can see them in both my completed and ongoing papers.</p>
-      <ul>
-        <li><strong>Job Market Paper:</strong> Examines the causal effect of ESG ratings on institutional ownership and firm value, using rigorous empirical approaches such as propensity score matching and difference-in-differences to identify the impact of ESG changes on investor behavior and market valuation.</li>
-        <li><strong>Working Paper:</strong> Extends these questions to a global setting, using MSCI ESG ratings and Morningstar Direct holdings data for 2,585 ESG‑focused funds to compare how institutional environments across countries influence the link between ownership, ESG, and firm value, with the clearest effects concentrated around the BB index‑eligibility threshold.</li>
-        <li><strong>Work in Progress:</strong> <em>Governance by Contract: Shareholder Agreements and Corporate Control</em> uses SEC contract data and large language models to study how shareholder agreements and legal shocks shape governance outcomes. <em>Activism by Blockholders</em> (with Stuart Gillan, Daniel Rettl & Vivek Acharya) studies how large shareholders exert influence over corporate control and firm outcomes.</li>
-      </ul>
-      <h3>Future Directions</h3>
-      <p>Going forward, my research philosophy is to combine rigorous empirical methods with modern technology to explore important questions in corporate finance. I am guided by curiosity and a commitment to hard work, and I hope to continue producing research that is both empirically sound and contributes to a deeper understanding of corporate behavior.</p>
-      <p class="small pill-links"><a href="files/Research_Statement%20Kiran%20Modi.pdf" target="_blank" rel="noopener">Full Research Statement</a></p>
-    </section>
-   <section id="teaching">
-      <div class="kicker">Teaching</div>
-      <h2>Courses</h2>
-      <ul>
-        <li><strong>Lecturer (2026–Present)</strong>
-          <ul style="list-style: circle; margin-left: 1.5em;">
-            <li>Introduction to Finance (FINA 3770)</li>
-            <li>Financial Markets and Institutions (FINA 4400)</li>
-          </ul>
-        </li>
-        <li><strong>Instructor (2023–2026)</strong>
-          <ul style="list-style: circle; margin-left: 1.5em;">
-            <li>Introduction to Finance (FINA 3770) — 4 courses</li>
-            <li>Financial Statement Analysis and Liquidity Management (FINA 4300)</li>
-          </ul>
-        </li>
-        <li><strong>Teaching Assistant (2021–2024)</strong>
-          <ul style="list-style: circle; margin-left: 1.5em;">
-            <li>Introduction to Finance (FINA 3770)</li>
-            <li>Introduction to Derivatives (FINA 4210)</li>
-            <li>Financial Statement Analysis and Liquidity Management (FINA 4300)</li>
-            <li>Financial Management (FINA 5170)</li>
-            <li>Investment Analysis & Management (FINA 5210)</li>
-            <li>Theory & Application of Financial Derivatives (FINA 5220)</li>
-          </ul>
-        </li>
-      </ul>
-      <p class="small pill-links"><a href="files/Teaching_Statement%20Kiran%20Modi.pdf" target="_blank" rel="noopener">Full Teaching Statement</a></p>
-      <h3>Teaching Philosophy & Growth</h3>
-      <p>My teaching philosophy centers on fostering growth mindsets, critical thinking, and real-world application. I strive to create an inclusive, engaging classroom where students are encouraged to ask questions, challenge assumptions, and connect finance concepts to their own experiences. Assessment blends conceptual mastery with practical skills, including case analyses, data exercises, and peer discussion. I am committed to continuous improvement, regularly seeking feedback and reflecting on my teaching to better support student learning and development.</p>
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Finance scholar · Researcher · Educator</p>
+        <h1>Kiran Modi</h1>
+        <p class="hero-role">Lecturer in Finance at the University of North Texas</p>
+        <p class="hero-intro">I study how ownership, governance, and sustainability shape investor behavior and firm value. My work combines empirical corporate finance with large-scale data analysis and modern computational methods.</p>
+        <div class="hero-actions" aria-label="Professional documents">
+          <a class="button button-primary" href="files/CV_Kiran%20Modi.pdf" target="_blank" rel="noopener">Curriculum Vitae <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="files/ESG_Ratings__Ownership_Structure__and_Firm_Value.pdf" target="_blank" rel="noopener">Job Market Paper <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-links">
+          <a href="files/Research_Statement%20Kiran%20Modi.pdf" target="_blank" rel="noopener">Research statement</a>
+          <a href="files/Teaching_Statement%20Kiran%20Modi.pdf" target="_blank" rel="noopener">Teaching statement</a>
+          <a href="https://www.linkedin.com/in/kiranmodi/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div class="portrait-wrap">
+        <div class="portrait-accent" aria-hidden="true"></div>
+        <img class="portrait" src="assets/headshot.jpg" alt="Kiran Modi">
+        <div class="portrait-note">
+          <span>Ph.D. in Finance, 2026</span>
+          <strong>University of North Texas</strong>
+        </div>
+      </div>
+    </div>
+  </header>
 
-      <h3>Student Comments</h3>
-      <ul class="small" style="list-style: disc; margin-left: 1.5em;">
-        <li>"The aspects that contributed most was the class session. Attending class helped me understand the topics. If I missed class I would be behind, and not understand the material."</li>
-        <li>"Enthusiastic teacher."</li>
-        <li>"Definitely, so far, I've learned so many things that I can actually use in my life. Some topics were a little bit hard to comprehend, but for the most part I found them stretching my thinking."</li>
-        <li>"This class definitely made me think about finance in a different light. It stretched my thinking on the possibilities that finance offers."</li>
-        <li>"The professor really cares about our learning. She is always trying to get class participation in answering questions."</li>
-      </ul>
-    </section>
-    <section id="experience">
-      <div class="kicker">Experience & Service</div>
-      <ul style="list-style: disc; margin-left: 1.5em;">
-        <li><strong>Lecturer, Finance, Insurance, Real Estate & Law</strong> — University of North Texas <span class="small">(2026–Present)</span></li>
-        <li><strong>Research Assistant</strong> — University of North Texas <span class="small">(2021–2026)</span></li>
-        <li><strong>SWFA Paper Discussant</strong> <span class="small">(2026)</span></li>
-        <li><strong>FMA Paper Discussant</strong> <span class="small">(2024)</span></li>
-        <li><strong>Principal Chartered Accountant | Financial Analyst / Consultant</strong> — Darshan A Shah & Co., Chartered Accountant, India <span class="small">(2011–2017)</span></li>
-        <li><strong>Intern, Financial Statement Auditing & Taxation</strong> — Aniket B Shah & Co., Chartered Accountant, India <span class="small">(2008–2011)</span></li>
-      </ul>
-    </section>
-
-    <section id="skills">
-      <div class="kicker">Technical & Research Skills</div>
-      <div class="skills-grid">
-        <div class="skill-group"><strong>Econometrics & Data Analysis</strong><br><span>Stata, SAS, R (tidyverse, data.table, ggplot2), Python (pandas, NumPy, statsmodels, scikit-learn)</span></div>
-        <div class="skill-group"><strong>Data Management & Research Workflow</strong><br><span>Git/GitHub, Jupyter Notebooks, Excel macros for automated data download (Morningstar Direct), WRDS, Bloomberg Terminal, MSCI, CRSP/COMP, S&P Capital IQ</span></div>
-        <div class="skill-group"><strong>Visualization, Reporting & Document Preparation</strong><br><span>Excel (advanced, VBA), Tableau, LaTeX, Overleaf, Beamer</span></div>
-        <div class="skill-group"><strong>Natural Language Processing / LLM Applications</strong><br><span>Python pipelines for SEC EDGAR scraping; contract-clause extraction using OpenAI GPT-4o for large-scale shareholder agreement analysis</span></div>
+  <main id="main-content">
+    <section class="section about" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>Research grounded in real financial decisions</h2>
+      </div>
+      <div class="about-grid">
+        <div class="prose">
+          <p>I am a Lecturer in Finance at the University of North Texas, where I completed my Ph.D. in Finance in 2026. My research interests include corporate governance, agency conflicts, ownership structure, shareholder activism, and ESG and sustainable investing.</p>
+          <p>Across my research, I examine how information and governance mechanisms influence institutional investors and market outcomes. I pair careful empirical design with data engineering, econometrics, and natural language processing to study questions that matter to scholars, investors, and firms.</p>
+          <p>Before entering academia, I worked as a Chartered Accountant and financial consultant in India. That experience continues to shape how I connect financial theory, institutional detail, and practical decision-making in both my research and teaching.</p>
+        </div>
+        <dl class="facts" aria-label="Academic profile">
+          <div>
+            <dt>Research fields</dt>
+            <dd>Corporate governance, ownership, activism, ESG</dd>
+          </div>
+          <div>
+            <dt>Current role</dt>
+            <dd>Lecturer, Finance, Insurance, Real Estate &amp; Law, UNT</dd>
+          </div>
+          <div>
+            <dt>Credentials</dt>
+            <dd>Ph.D. in Finance · Chartered Accountant</dd>
+          </div>
+          <div>
+            <dt>Work authorization</dt>
+            <dd>Authorized to work in the U.S. without employer sponsorship</dd>
+          </div>
+        </dl>
       </div>
     </section>
-    <section id="awards">
-      <div class="kicker">Honors & Awards</div>
-      <ul style="list-style: disc; margin-left: 1.5em;">
-        <li><strong>Doctoral Directors Choice Award</strong><br>
-          <span class="small">FIREL Department, University of North Texas | 2026</span><br>
-          Awarded by the FIREL Department in recognition of outstanding contributions to the doctoral program.
-        </li>
-        <li><strong>Outstanding Student Award</strong><br>
-          <span class="small">Ascend Gala, University of North Texas | 2020–21, 2024–25</span><br>
-          University-level recognition for academic excellence, leadership, and research contributions. Selected from graduate students in the G. Brint Ryan College of Business.
-        </li>
-        <li><strong>Best Summer Research Paper Award</strong><br>
-          <span class="small">University of North Texas – FIREL Department | 2022, 2023</span><br>
-          Awarded for producing the best summer research paper among finance Ph.D. students. Recognized originality, methodological rigor, and contribution to the field of corporate finance and ESG research.
-        </li>
-        <li><strong>Tuition Benefit Program Award</strong><br>
-          <span class="small">University of North Texas | 2021–2025</span><br>
-          Competitive, multi-year scholarship awarded to Ph.D. students demonstrating strong academic performance and research potential. Covers tuition and provides financial support throughout doctoral studies.
-        </li>
-      </ul>
+
+    <section class="section section-tinted" id="research">
+      <div class="section-heading heading-row">
+        <div>
+          <p class="eyebrow">Research</p>
+          <h2>Ownership, governance, and sustainable investing</h2>
+        </div>
+        <a class="text-link" href="files/Research_Statement%20Kiran%20Modi.pdf" target="_blank" rel="noopener">Read research statement <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <article class="featured-paper">
+        <div class="paper-label">Job Market Paper</div>
+        <div class="paper-content">
+          <h3>ESG Ratings, Ownership Structure, and Firm Value</h3>
+          <p>I examine how MSCI ESG rating changes affect institutional ownership and stock returns for U.S. firms from 2013 to 2023. The analysis studies rating upgrades and downgrades, changes around MSCI's BB index-eligibility threshold, and additions to or removals from ESG-focused ETFs.</p>
+          <p>Using two-way fixed effects, propensity-score matching, difference-in-differences, event studies, and MSCI's 2012Q4 mass coverage initiation, I find the clearest ownership effects around exclusion-related events. ETF removals are associated with a 1.361% decline in 13F holdings, while coverage initiation is followed by a 1.16% increase in institutional ownership. The results point to visibility, screening, and exclusion channels rather than broad immediate valuation effects.</p>
+          <div class="paper-meta">
+            <span>Institutional ownership</span>
+            <span>ESG ratings</span>
+            <span>Event studies</span>
+          </div>
+          <a class="button button-paper" href="files/ESG_Ratings__Ownership_Structure__and_Firm_Value.pdf" target="_blank" rel="noopener">Read the paper <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+
+      <div class="research-grid">
+        <article class="research-card">
+          <p class="card-type">Working Paper</p>
+          <h3>ESG Ratings, Ownership, and Stock Returns: Cross-Country Analysis</h3>
+          <p>Using MSCI ratings and holdings from 2,585 ESG-focused open-end equity funds, this project studies investor responses across countries. The evidence is strongest at the fund-participation margin and around the BB index-eligibility threshold.</p>
+          <ul class="tags" aria-label="Methods and topics">
+            <li>Global markets</li>
+            <li>Fund holdings</li>
+            <li>Difference-in-differences</li>
+          </ul>
+        </article>
+        <article class="research-card">
+          <p class="card-type">Work in Progress</p>
+          <h3>Governance by Contract: Shareholder Agreements and Corporate Control</h3>
+          <p>This project uses shareholder agreements collected from SEC filings to study contractual control rights. It combines legal shocks, including the <em>Moelis</em> decision and subsequent Delaware legislation, with large-language-model classification of contractual powers.</p>
+          <ul class="tags" aria-label="Methods and topics">
+            <li>Shareholder agreements</li>
+            <li>SEC filings</li>
+            <li>LLM classification</li>
+          </ul>
+        </article>
+        <article class="research-card compact-card">
+          <p class="card-type">Work in Progress</p>
+          <h3>Activism by Blockholders</h3>
+          <p>With Stuart Gillan, Daniel Rettl, and Vivek Acharya.</p>
+        </article>
+      </div>
     </section>
-    
 
-    
-    
+    <section class="section" id="teaching">
+      <div class="section-heading heading-row">
+        <div>
+          <p class="eyebrow">Teaching</p>
+          <h2>Building confidence through questions and application</h2>
+        </div>
+        <a class="text-link" href="files/Teaching_Statement%20Kiran%20Modi.pdf" target="_blank" rel="noopener">Read teaching statement <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="teaching-grid">
+        <div class="teaching-philosophy prose">
+          <p class="lead">I believe good teaching begins with the right questions. I ask students to test ideas, explain their reasoning, and view difficult material as an opportunity to grow.</p>
+          <p>In Introduction to Finance, I frame concepts for both finance majors and students from other fields: professional applications for one audience and personal financial decisions for another. Group activities, peer discussion, and small problem-solving sessions help students build confidence and learn from one another.</p>
+          <blockquote>
+            <p>“The professor really cares about our learning. She is always trying to get class participation in answering questions.”</p>
+            <cite>Student feedback</cite>
+          </blockquote>
+        </div>
+        <div class="course-list">
+          <div class="course-group">
+            <p class="course-role">Lecturer · 2026–Present</p>
+            <ul>
+              <li><span>FINA 3770</span> Introduction to Finance</li>
+              <li><span>FINA 4400</span> Financial Markets and Institutions</li>
+            </ul>
+          </div>
+          <div class="course-group">
+            <p class="course-role">Instructor · 2023–2026</p>
+            <ul>
+              <li><span>FINA 3770</span> Introduction to Finance, four courses</li>
+              <li><span>FINA 4300</span> Financial Statement Analysis and Liquidity Management</li>
+            </ul>
+          </div>
+          <div class="course-group">
+            <p class="course-role">Teaching Assistant · 2021–2024</p>
+            <p>Undergraduate and graduate courses in finance, derivatives, financial management, and investment analysis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    
+    <section class="section section-tinted" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow">Experience &amp; credentials</p>
+        <h2>A foundation in research, teaching, and practice</h2>
+      </div>
+      <div class="timeline">
+        <article>
+          <p class="timeline-date">2026–Present</p>
+          <div><h3>Lecturer in Finance</h3><p>University of North Texas</p></div>
+        </article>
+        <article>
+          <p class="timeline-date">2021–2026</p>
+          <div><h3>Ph.D. in Finance · Research Assistant</h3><p>University of North Texas</p></div>
+        </article>
+        <article>
+          <p class="timeline-date">2020–2021</p>
+          <div><h3>M.S. in Finance</h3><p>University of North Texas</p></div>
+        </article>
+        <article>
+          <p class="timeline-date">2011–2017</p>
+          <div><h3>Principal Chartered Accountant · Financial Analyst and Consultant</h3><p>Darshan A Shah &amp; Co., India</p></div>
+        </article>
+      </div>
 
-    <section id="contact">
-      <div class="kicker">Contact</div>
-      <p class="small">Email: <a href="mailto:kiran.modi@unt.edu">kiran.modi@unt.edu</a> &nbsp;•&nbsp; Phone: <a href="tel:+12244102188">+1‑224‑410‑2188</a></p>
-      <p class="small">Address: G. Brint Ryan College of Business, University of North Texas, 1307 W Highland St., Denton, TX 76201</p>
-      <p class="small pill-links"><a href="files/CV_Kiran Modi.pdf" target="_blank" rel="noopener">Curriculum Vitae</a> • <a href="files/Research_Statement%20Kiran%20Modi.pdf" target="_blank" rel="noopener">Research Statement</a> • <a href="files/Teaching_Statement%20Kiran%20Modi.pdf" target="_blank" rel="noopener">Teaching Statement</a> • <a href="https://www.linkedin.com/in/kiranmodi/" target="_blank" rel="noopener" style="color:#0077b5;font-weight:600;text-decoration:none;">LinkedIn</a></p>
+      <div class="credentials-grid">
+        <div>
+          <h3>Selected honors</h3>
+          <ul class="detail-list">
+            <li><strong>Doctoral Directors Choice Award</strong><span>FIREL, UNT · 2026</span></li>
+            <li><strong>Outstanding Student Award</strong><span>The Ascend Gala, UNT · 2020–21 and 2024–25</span></li>
+            <li><strong>Best Summer Research Paper Award</strong><span>FIREL, UNT · 2022 and 2023</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Research toolkit</h3>
+          <ul class="detail-list">
+            <li><strong>Econometrics and analysis</strong><span>Stata, SAS, R, Python</span></li>
+            <li><strong>Financial data</strong><span>WRDS, Bloomberg, MSCI, CRSP/Compustat, S&amp;P Capital IQ</span></li>
+            <li><strong>Computational research</strong><span>SEC EDGAR pipelines, NLP, LLM-assisted contract analysis</span></li>
+          </ul>
+        </div>
+      </div>
+      <p class="section-cta"><a class="button button-secondary" href="files/CV_Kiran%20Modi.pdf" target="_blank" rel="noopener">View complete CV <span aria-hidden="true">↗</span></a></p>
+    </section>
+
+    <section class="section" id="references">
+      <div class="section-heading">
+        <p class="eyebrow">References</p>
+        <h2>Academic references</h2>
+      </div>
+      <div class="reference-grid">
+        <article class="reference-card">
+          <h3>Dr. Stuart Gillan</h3>
+          <p>Professor and G. Brint Ryan Chair in Finance<br>University of North Texas</p>
+          <a href="mailto:Stuart.Gillan@unt.edu">Stuart.Gillan@unt.edu</a>
+        </article>
+        <article class="reference-card">
+          <h3>Dr. Takeshi Nishikawa</h3>
+          <p>Associate Professor<br>University of North Texas</p>
+          <a href="mailto:Takeshi.Nishikawa@unt.edu">Takeshi.Nishikawa@unt.edu</a>
+        </article>
+        <article class="reference-card">
+          <h3>Dr. Meredith Rhodes</h3>
+          <p>Assistant Professor<br>University of North Texas</p>
+          <a href="mailto:Meredith.Rhodes@unt.edu">Meredith.Rhodes@unt.edu</a>
+        </article>
+        <article class="reference-card">
+          <h3>Dr. Xun Bian</h3>
+          <p>Associate Professor<br>University of North Texas</p>
+          <a href="mailto:Xun.Bian@unt.edu">Xun.Bian@unt.edu</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s connect</h2>
+        <p>G. Brint Ryan College of Business<br>University of North Texas<br>1307 W. Highland St., Denton, TX 76201</p>
+      </div>
+      <div class="contact-actions">
+        <a href="mailto:kiran.modi@unt.edu">kiran.modi@unt.edu</a>
+        <a href="tel:+12244102188">+1 224 410 2188</a>
+        <a href="https://www.linkedin.com/in/kiranmodi/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+      </div>
     </section>
   </main>
 
-  <footer>© <span id="y"></span> Kiran Modi · Job Market Site</footer>
+  <footer>
+    <p>© <span id="year"></span> Kiran Modi</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
   <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-    // Hamburger menu toggle (robust, after DOM loaded)
-    document.addEventListener('DOMContentLoaded', function() {
-      const navToggle = document.getElementById('nav-toggle');
-      const navLinks = document.getElementById('nav-links');
-      const hamburger = document.getElementById('hamburger');
-      if (!navToggle || !navLinks || !hamburger) {
-        console.error('Nav toggle, nav links, or hamburger not found');
-        return;
-      }
-      navToggle.addEventListener('click', function() {
-        const expanded = navToggle.getAttribute('aria-expanded') === 'true';
-        navToggle.setAttribute('aria-expanded', !expanded);
-        navLinks.classList.toggle('open');
-        hamburger.classList.toggle('open');
-      });
-      // Optional: close menu on link click (mobile UX)
-      navLinks.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => {
-          if (window.innerWidth <= 900) {
-            navLinks.classList.remove('open');
-            navToggle.setAttribute('aria-expanded', 'false');
-            hamburger.classList.remove('open');
-          }
-        });
-      });
-      // Auto-close menu and reset hamburger on resize to desktop
-      window.addEventListener('resize', () => {
-        if (window.innerWidth > 900) {
-          navLinks.classList.remove('open');
-          navToggle.setAttribute('aria-expanded', 'false');
-          hamburger.classList.remove('open');
-        }
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    toggle.addEventListener('click', () => {
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!isOpen));
+      navLinks.classList.toggle('is-open', !isOpen);
+    });
+
+    navLinks.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        toggle.setAttribute('aria-expanded', 'false');
+        navLinks.classList.remove('is-open');
       });
     });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        toggle.setAttribute('aria-expanded', 'false');
+        navLinks.classList.remove('is-open');
+      }
+    });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
