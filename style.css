@@ -192,16 +192,7 @@ h1, h2, h3 { text-wrap: balance; }
   text-underline-offset: 4px;
 }
 .hero-links a:hover { color: var(--white); }
-.portrait-wrap { position: relative; padding: 18px 18px 0 0; }
-.portrait-accent {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 84%;
-  height: 84%;
-  border: 1px solid rgba(255, 255, 255, 0.38);
-  border-radius: 180px 180px 12px 12px;
-}
+.portrait-wrap { position: relative; }
 .portrait {
   position: relative;
   z-index: 1;
